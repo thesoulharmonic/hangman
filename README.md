@@ -38,6 +38,6 @@ If you're interested in contributing to the project, feel free to submit a pull 
 ## Author
 Richard Williams
 
-##Acknowledgements
+## Acknowledgements
 Thanks to the React and Typescript communities for providing valuable resources and inspiration for this project.
 References work by WebDevSimplifies - https://www.youtube.com/watch?v=-ONUyenGnWw
