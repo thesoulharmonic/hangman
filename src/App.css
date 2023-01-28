@@ -1,0 +1,63 @@
+
+
+.hangmanState {
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+    padding: 30px;
+  }
+  .alphabet {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .title {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+  }
+  .title h1 {
+    font-size: 55px;
+    font-weight: 800;
+  }
+  
+  
+  .row {
+    clear: both;
+    margin-bottom: 20px;
+  }
+  
+  .wordPuzzleContainer {
+    display:inline-block;
+    width:100%;
+margin: 0 auto;
+text-align:center;
+margin-bottom:30px
+
+  }
+
+  span.wordPuzzle {
+    width: 40px;
+    display: inline-block;
+    clear:none;
+    margin-right:7px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 10px;
+border-bottom:3px black solid;
+
+
+  }
+  
+ .gameStatus {
+    display:block;
+    text-align: center;
+    margin: 0 auto;
+    font-size:18px;
+    font-weight: 700;
+ }
+

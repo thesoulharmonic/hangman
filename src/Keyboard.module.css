@@ -1,0 +1,22 @@
+.btn {
+  /* display: grid; */
+ grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
+ text-transform: uppercase;
+
+  width:50px;
+  height:50px;
+  border-radius: 50%; /* this will create a circle */
+  border: 3px solid #000; /* this will create a border */
+  font-size: 20px; /* this will set the font size of the letter */
+}
+
+
+.btn.active {color:#000; border:3px solid rgb(0,150,136); opacity:1}
+
+.btn.inactive {opacity: 0.4}
+
+
+.btn:hover:not(:disabled),
+.btn:focus:not(:disabled) {
+  background-color: hsl(200, 100%, 75%);
+}
